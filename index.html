@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <fieldset>
+        <legend>Text input fields</legend>
+
+
+        <label for="username" class="label-title">Username (4 to 10 characters):</label>
+        <input id="username" type="text" name="username" minlength="4" maxlength="10" required>
+        
+        <label for="password" class="label-title">Password (4 to 8 characters):</label>
+        <input id="password" type="password" name="password" minlength="4" maxlength="8" required>
+        
+        <label for="description" class="label-title">Description (300 characters):</label>
+        <textarea name="description" id="description" cols="50" rows="5" maxlength="300" required></textarea>
+    </fieldset>
+
+    <fieldset>
+        <legend>Radio input fields</legend>
+
+        <div class="user-boxes">
+            <input id="black" type="radio" name="coffee" value="black">
+            <label for="black">Black Coffee</label>
+            
+            <input id="white" type="radio" name="coffee" value="white">
+            <label for="white">White Coffee</label>
+            
+            <input id="other" type="radio" name="coffee" value="other" checked>
+            <label for="other">Tea, Coffee is horrible!</label>
+        </div>
+    </fieldset>
+
+    <fieldset>
+        <legend>Checkbox input fields</legend>
+
+        <div class="user-boxes">
+            <input id="best-job" type="checkbox" name="best-job">
+            <label for="best-job">I agree, I am a superhero without a cape</label>
+        </div>
+
+        <h3>Other jobs I could do are:</h3>
+
+        <div class="jobs">
+            <input id="web-dev" type="checkbox" name="jobs" value="web-dev">
+            <label for="web-dev">Web Developer</label>
+        </div>
+        <div class="jobs">
+            <input id="ice-cream" type="checkbox" name="jobs" value="ice-cream">
+            <label for="ice-cream">The boss of a fleet of ice cream vans</label>
+        </div>
+        <div class="jobs">
+            <input id="matrix" type="checkbox" name="jobs" value="matrix">
+            <label for="matrix">Help Neo get rid of the machines</label>
+        </div>
+        
+
+        
+    </fieldset>
+
+    
+    
+</body>
+</html>

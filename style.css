@@ -1,0 +1,33 @@
+fieldset {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-bottom: 40px;
+}
+legend {
+    text-align: center;
+    font-size: 25px;
+    padding: 0 15px;
+}
+
+#username, 
+#password, 
+#description {
+    width: 300px;
+    padding: 5px 0;
+    margin: 15px 0;
+}
+
+.label-title {
+    font-size: 20px;
+}
+
+.user-boxes  {
+    font-size: 20px;
+    text-align: center;
+}
+
+.jobs {
+    font-size: 18px;
+    padding: 10px 0;
+}
